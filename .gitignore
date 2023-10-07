@@ -3,4 +3,6 @@
 requirements.txt
 __pycache__
 .idea
+Procfile
+pyvenv.cfg
 
