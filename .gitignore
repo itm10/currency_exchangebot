@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+.env
+requirements.txt
+__pycache__
+.idea
+
