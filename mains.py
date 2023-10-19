@@ -56,7 +56,7 @@ async def get_value(message: Message, state: FSMContext):
     try:
         answer = currency_data(have, want, int(value))
         await message.answer(f'Currency exchange: {value}{have} => {answer}{want}')
-        await message.answer('Choose /currency to enter new currency exchange')
+        await message.answer('Choose /currency to enter new amount of currency')
         await state.storage.close()
         await state.clear()
     except:
